@@ -2,7 +2,7 @@
 #include <board.h>
 #include <delay.h>
 
-#define DELAY_MS 1000
+#define DELAY_MS 100
 
 void main(){
     while (1)
@@ -12,5 +12,4 @@ void main(){
         LED_BUILDIN = LED_BUILDIN_OFF;
         delay_ms(DELAY_MS);
     }
-    
 }

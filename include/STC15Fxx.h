@@ -6,9 +6,6 @@
 // Suitable for series chips STC15Wxx / STC15Fxx
 // Modified based on STC-ISP version by: ZnHoCn
 
-
-
-
 //Core special function register //Reset value description
 #define _ACC 0xE0
 SFR(ACC, 0xE0);         //0000,0000 Accumulator
